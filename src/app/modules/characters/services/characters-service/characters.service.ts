@@ -10,7 +10,7 @@ export class CharactersService {
   getCharacters() {
     const randomIds = Array.from(
       { length: 8 },
-      () => Math.floor(Math.random() * 1000) + 1
+      () => Math.floor(Math.random() * 826) + 1
     );
     const idsString = randomIds.join(',');
 
